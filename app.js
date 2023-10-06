@@ -3,11 +3,11 @@ const server = http.createServer(function (request, response) {
   console.log(request.url);
   if (request.url === "/") {
     let main = `<!DOCTYPE html>
-    <html lang=\"ko\">
+    <html lang="ko">
     <head>
-      <meta charset=\"UTF-8\">
-      <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">
-      <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>Document</title>
     </head>
     <body>
@@ -20,11 +20,11 @@ const server = http.createServer(function (request, response) {
   }
   if (request.url == "/sub") {
     let sub = `<!DOCTYPE html>
-    <html lang=\"ko\">
+    <html lang="ko">
     <head>
-      <meta charset=\"UTF-8\">
-      <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">
-      <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>Document</title>
     </head>
     <body>
@@ -38,4 +38,3 @@ const server = http.createServer(function (request, response) {
 });
 
 server.listen(1234);
-
